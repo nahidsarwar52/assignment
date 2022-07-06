@@ -9,14 +9,16 @@ section {
 
 .section1 {
     text-align: center;
-    background-image: url(images/1657050428082.jpg);
+    background-image: url(images/donation1.jpg);
     background-repeat: no-repeat;
+    width: 100%;
     background-size: cover;
-    padding: 100px;
+    padding-bottom: 100px;
+    padding-top: 100px;
     width: 100%;
 }
 
-a {
+.button2 {
     text-decoration: none;
     background-color: rgb(250, 15, 62);
     padding: 10px 30px;
@@ -50,13 +52,132 @@ span {
     border: 1px solid red;
 }
 
-input {
+#donation {
     padding: 10px 150px;
+    margin-left: 15px;
     border: none;
     border-bottom: 2px solid rgb(218, 216, 216);
 }
 
-.button2 {
-    margin-right: 25px;
+.section3 {
+    text-align: center;
+
+}
+
+.section4 {
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    margin: 0 auto;
     ;
+
+
+}
+
+#food {
+    background-color: rgb(195, 236, 236);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#shelter {
+    background-color: rgb(231, 228, 225);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+#education {
+    background-color: rgb(222, 193, 250);
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.section5 {
+    text-align: center;
+    display: flex;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 0 auto;
+    background-color: antiquewhite;
+}
+
+form {
+    padding: 20px;
+    padding-left: 10px;
+}
+
+#end {
+    height: 200px;
+    width: 50%;
+    margin-top: 30px;
+    padding: 10px;
+
+}
+
+#ss {
+    height: 250px;
+    width: 350px;
+
+}
+
+.h4 {
+    padding: 20px;
+}
+
+.section6 {
+    text-align: center;
+
+
+
+}
+
+#btn {
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    margin-left: -5px;
+    padding: 10px;
+
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+
+}
+
+#email {
+    background-color: rgb(186, 187, 187);
+    border: none;
+    padding: 10px;
+    border-radius: 5px 0px 0px 5px;
+
+
+}
+
+.hmm {
+    background-color: antiquewhite;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.section7 {
+    text-align: center;
+    background-color: black;
+    margin-bottom: 0;
+}
+
+#red {
+    color: rgb(216, 54, 54);
+    padding-bottom: 0px;
+    padding-top: 20px;
+}
+
+#orange {
+    color: white;
+    padding-top: 0;
+    padding-bottom: 20px;
 }
